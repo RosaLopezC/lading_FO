@@ -51,7 +51,9 @@ export default function Navbar() {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="#contacto"
+            href="https://n8n-fromttesis.nx6krt.easypanel.host/login"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-medium text-white/70 hover:text-white transition-colors"
           >
             Iniciar sesión
