@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
+import logo from '../assets/logo.png'
 
 const links = [
   { label: 'Solución', href: '#solucion' },
@@ -30,14 +31,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded-lg bg-[var(--brand)] flex items-center justify-center glow-brand">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="#050e0d" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </div>
-          <span className="font-display font-700 text-white text-xl tracking-tight">
-            Field<span className="text-[var(--brand)]">Ops</span>
-          </span>
+          <img src={logo} alt="FieldOps" className="w-18 h-20 rounded-lg" />
         </a>
 
         {/* Desktop links */}
