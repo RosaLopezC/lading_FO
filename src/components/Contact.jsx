@@ -21,7 +21,7 @@ export default function Contact() {
 
       <div className="relative max-w-7xl mx-auto px-6">
         {/* CTA Banner */}
-        <div className="aos rounded-3xl bg-gradient-to-r from-[#0d1c35] via-[#0f2847] to-[#0d1c35] border border-[rgba(245,126,29,0.2)] p-10 md:p-14 text-center mb-16" style={{ boxShadow: '0 0 80px rgba(245,126,29,0.08)' }}>
+        <div className="aos rounded-3xl bg-gradient-to-r from-[#0a1625] via-[#0b1e32] to-[#0a1625] border border-[rgba(245,126,29,0.2)] p-10 md:p-14 text-center mb-16" style={{ boxShadow: '0 0 80px rgba(245,126,29,0.08)' }}>
           <div className="text-[var(--brand)] text-sm font-medium uppercase tracking-widest mb-4">¿Listo para el cambio?</div>
           <h2 className="font-display font-800 text-3xl md:text-5xl text-white mb-4">
             Digitaliza tu operación de campo{' '}

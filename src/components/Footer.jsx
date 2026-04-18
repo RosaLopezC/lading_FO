@@ -1,4 +1,5 @@
 import { MapPin } from 'lucide-react'
+import logo from '../assets/logo.png'
 
 const LINKS = {
   Producto: ['Funcionalidades', 'Planes', 'Roadmap', 'Changelog'],
@@ -15,14 +16,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-[var(--brand)] flex items-center justify-center">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="#050e0d" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </div>
-              <span className="font-display font-700 text-white text-xl">
-                Field<span className="text-[var(--brand)]">Ops</span>
-              </span>
+              <img src={logo} alt="FieldOps" className="w-18 h-20 rounded-lg" />
             </div>
             <p className="text-white/40 text-sm leading-relaxed mb-4 max-w-xs">
               Plataforma de supervisión de campo con GPS y evidencia fotográfica para empresas de telecomunicaciones.
