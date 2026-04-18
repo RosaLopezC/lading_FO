@@ -22,7 +22,7 @@ export default function Problem() {
   return (
     <section id="problema" className="relative py-24 overflow-hidden">
       {/* Subtle bg */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#050e0d] via-[#091918]/40 to-[#050e0d] pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#050812] via-[#0a1420]/40 to-[#050812] pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-6">
         {/* Header */}
@@ -50,9 +50,9 @@ export default function Problem() {
                 alt="Gestión manual de reportes"
                 className="w-full h-80 object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-[#050e0d]/70 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#050812]/70 to-transparent" />
               {/* Overlay card */}
-              <div className="absolute bottom-6 left-6 bg-[#091918]/95 backdrop-blur-sm rounded-xl p-4 border border-red-500/20 max-w-xs">
+              <div className="absolute bottom-6 left-6 bg-[#0a1420]/95 backdrop-blur-sm rounded-xl p-4 border border-red-500/20 max-w-xs">
                 <div className="flex items-center gap-2 mb-2">
                   <div className="w-2 h-2 rounded-full bg-red-500" />
                   <span className="text-xs text-red-400 font-medium uppercase tracking-wide">Proceso tradicional</span>

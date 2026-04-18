@@ -40,7 +40,7 @@ export default function HowItWorks() {
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="text-center mb-16 aos">
-          <span className="inline-block px-3 py-1 rounded-full bg-[var(--brand-dim)] border border-[rgba(0,180,168,0.25)] text-[var(--brand)] text-sm font-medium mb-4">
+          <span className="inline-block px-3 py-1 rounded-full bg-[var(--brand-dim)] border border-[rgba(245,126,29,0.25)] text-[var(--brand)] text-sm font-medium mb-4">
             Proceso
           </span>
           <h2 className="font-display font-800 text-3xl md:text-5xl text-white mb-4">

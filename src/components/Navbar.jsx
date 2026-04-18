@@ -24,7 +24,7 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-[#050e0d]/95 backdrop-blur-md border-b border-[rgba(0,180,168,0.15)] py-3'
+          ? 'bg-[#050812]/95 backdrop-blur-md border-b border-[rgba(245,126,29,0.15)] py-3'
           : 'py-5'
       }`}
     >
@@ -58,7 +58,7 @@ export default function Navbar() {
           </a>
           <a
             href="#contacto"
-            className="px-4 py-2 rounded-lg bg-[var(--brand)] text-[#050e0d] text-sm font-semibold hover:bg-[#00c8bb] transition-colors glow-brand"
+            className="px-4 py-2 rounded-lg bg-[var(--brand)] text-[#050812] text-sm font-semibold hover:bg-[#00c8bb] transition-colors glow-brand"
           >
             Solicitar demo →
           </a>
@@ -75,7 +75,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-[#091918] border-t border-[rgba(0,180,168,0.15)] px-6 py-4 flex flex-col gap-4">
+        <div className="md:hidden bg-[#0a1420] border-t border-[rgba(245,126,29,0.15)] px-6 py-4 flex flex-col gap-4">
           {links.map(l => (
             <a
               key={l.href}
@@ -88,7 +88,7 @@ export default function Navbar() {
           ))}
           <a
             href="#contacto"
-            className="mt-2 px-4 py-2 rounded-lg bg-[var(--brand)] text-[#050e0d] font-semibold text-center"
+            className="mt-2 px-4 py-2 rounded-lg bg-[var(--brand)] text-[#050812] font-semibold text-center"
             onClick={() => setOpen(false)}
           >
             Solicitar demo

@@ -32,11 +32,11 @@ const ROLES = [
 export default function Users() {
   return (
     <section id="usuarios" className="relative py-24 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#091918]/20 to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a1420]/20 to-transparent pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="text-center mb-16 aos">
-          <span className="inline-block px-3 py-1 rounded-full bg-[var(--brand-dim)] border border-[rgba(0,180,168,0.25)] text-[var(--brand)] text-sm font-medium mb-4">
+          <span className="inline-block px-3 py-1 rounded-full bg-[var(--brand-dim)] border border-[rgba(245,126,29,0.25)] text-[var(--brand)] text-sm font-medium mb-4">
             Usuarios
           </span>
           <h2 className="font-display font-800 text-3xl md:text-5xl text-white mb-4">
@@ -52,12 +52,12 @@ export default function Users() {
           {ROLES.map((r, i) => (
             <div
               key={r.role}
-              className="aos card-hover rounded-2xl overflow-hidden border border-[rgba(255,255,255,0.07)] bg-[rgba(0,180,168,0.03)]"
+              className="aos card-hover rounded-2xl overflow-hidden border border-[rgba(255,255,255,0.07)] bg-[rgba(245,126,29,0.03)]"
               style={{ transitionDelay: `${i * 0.1}s` }}
             >
               <div className="relative h-36 overflow-hidden">
                 <img src={r.img} alt={r.role} className="w-full h-full object-cover opacity-60" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0d2422] to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0d1c35] to-transparent" />
                 <div className="absolute bottom-3 left-4">
                   <span className="text-2xl">{r.emoji}</span>
                 </div>

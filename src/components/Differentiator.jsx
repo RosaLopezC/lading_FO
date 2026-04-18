@@ -42,7 +42,7 @@ export default function Differentiator() {
       <div className="relative max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16 aos">
-          <span className="inline-block px-3 py-1 rounded-full bg-[var(--brand-dim)] border border-[rgba(0,180,168,0.25)] text-[var(--brand)] text-sm font-medium mb-4">
+          <span className="inline-block px-3 py-1 rounded-full bg-[var(--brand-dim)] border border-[rgba(245,126,29,0.25)] text-[var(--brand)] text-sm font-medium mb-4">
             ¿Por qué elegirnos?
           </span>
           <h2 className="font-display font-800 text-3xl md:text-5xl text-white mb-4">
@@ -52,10 +52,10 @@ export default function Differentiator() {
         </div>
 
         {/* Comparison table */}
-        <div className="aos overflow-x-auto rounded-2xl border border-[rgba(0,180,168,0.15)] mb-16">
+        <div className="aos overflow-x-auto rounded-2xl border border-[rgba(245,126,29,0.15)] mb-16">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-[rgba(0,180,168,0.1)]">
+              <tr className="border-b border-[rgba(245,126,29,0.1)]">
                 <th className="text-left p-4 text-white/40 font-medium">Capacidad</th>
                 <th className="p-4 text-center text-white/40 font-medium">Método tradicional</th>
                 <th className="p-4 text-center font-medium">
@@ -96,13 +96,13 @@ export default function Differentiator() {
           {TESTIMONIALS.map((t, i) => (
             <div
               key={t.name}
-              className="aos card-hover p-6 rounded-2xl bg-[rgba(0,180,168,0.04)] border border-[rgba(0,180,168,0.1)]"
+              className="aos card-hover p-6 rounded-2xl bg-[rgba(245,126,29,0.04)] border border-[rgba(245,126,29,0.1)]"
               style={{ transitionDelay: `${i * 0.1}s` }}
             >
               <div className="text-[var(--gold)] text-2xl mb-3">❝</div>
               <p className="text-white/70 text-sm leading-relaxed mb-5">{t.quote}</p>
               <div className="flex items-center gap-3">
-                <img src={t.avatar} alt={t.name} className="w-9 h-9 rounded-full object-cover border border-[rgba(0,180,168,0.2)]" />
+                <img src={t.avatar} alt={t.name} className="w-9 h-9 rounded-full object-cover border border-[rgba(245,126,29,0.2)]" />
                 <div>
                   <div className="text-white text-sm font-medium">{t.name}</div>
                   <div className="text-white/40 text-xs">{t.role}</div>
